@@ -1,0 +1,29 @@
+body {
+		font-family: Futura; Helvetica; sans-serif;
+		background-color: #AEDFE6; 
+}
+h1 {
+		text-align: left;
+		font-size: 40px;
+		float: left;
+
+}
+ul li{
+		font-size: 40px;
+		list-style-type: none;
+    	margin: 0;
+    	padding: 0;
+    	display: inline;
+
+}
+img {
+	width: 100px;
+	height: 110px;
+}
+#text {
+	text-align: left;
+}
+hr {
+	width: 80%;
+	color: #DD3C2E;
+}
