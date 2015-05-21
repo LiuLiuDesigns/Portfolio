@@ -1,6 +1,24 @@
+html {
+	  -webkit-tap-highlight-color: #1F2258;
+}
 body {
 		font-family: Futura; Helvetica; sans-serif;
 		background-color: #AEDFE6; 
+}
+.navbar {
+	height: 100px;
+	margin-bottom: 0;
+}
+.navbar-brand {
+	padding: 8px 15px;
+}
+.collapse {
+	padding-top: 21px;
+	padding-left: 0;
+	padding-right: 0;
+}
+.navbar-toggle {
+	margin-top: 28px;
 }
 h1 {
 		text-align: left;
@@ -9,22 +27,23 @@ h1 {
 
 }
 ul li{
-		font-size: 40px;
+		font-size: 30px;
 		list-style-type: none;
     	margin: 0;
-    	padding: 0;
-    	display: inline;
+		display: inline;
 
 }
-img {
-	width: 100px;
-	height: 110px;
-}
+/*img {
+	width: 80px;
+	height: 90px;
+}*/
 #text {
 	text-align: left;
 }
 hr {
 	width: 80%;
 	height: 5px;
+	background-color: #DD3C2E;
 	color: #DD3C2E;
+	border: 0;
 }
