@@ -1,6 +1,3 @@
-html {
-	  -webkit-tap-highlight-color: #1F2258;
-}
 body {
 		font-family: Futura; Helvetica; sans-serif;
 		background-color: #AEDFE6; 
@@ -32,6 +29,10 @@ ul li{
     	margin: 0;
 		display: inline;
 
+}
+.nav > li > a:hover,
+.nav> li? a:focus {
+	color: #ffffff;
 }
 /*img {
 	width: 80px;
