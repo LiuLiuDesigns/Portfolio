@@ -25,5 +25,6 @@ img {
 }
 hr {
 	width: 80%;
+	height: 5px;
 	color: #DD3C2E;
 }
