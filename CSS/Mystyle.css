@@ -1,22 +1,26 @@
 body {
 		font-family: Futura; Helvetica; sans-serif;
-		background-color: #AEDFE6; 
+		background-color: #AEDBEA; 
 }
 .navbar {
-	height: 100px;
+	height: 90px;
 	margin-bottom: 0;
 }
 .navbar-brand {
-	padding: 8px 15px;
+	padding: 15px 85px;
+	/*position: fixed;*/
 }
 .collapse {
 	padding-top: 21px;
 	padding-left: 0;
-	padding-right: 0;
+	padding-right: 40px;
 }
 .navbar-toggle {
 	margin-top: 28px;
 }
+.navbar-default .navbar-nav>li>a {
+  color: #26286D;
+ }
 h1 {
 		text-align: left;
 		font-size: 40px;
@@ -30,10 +34,9 @@ ul li{
 		display: inline;
 
 }
-.nav > li > a:hover,
-.nav> li? a:focus {
-	color: #ffffff;
-}
+ul.nav a:hover,
+ul.nav a:focus { color: #DD3C2E !important; }
+
 /*img {
 	width: 80px;
 	height: 90px;
@@ -42,9 +45,10 @@ ul li{
 	text-align: left;
 }
 hr {
-	width: 80%;
+	width: 85%;
 	height: 5px;
 	background-color: #DD3C2E;
 	color: #DD3C2E;
 	border: 0;
+	margin-top: 0px;
 }
